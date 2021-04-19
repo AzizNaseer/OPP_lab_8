@@ -7,6 +7,9 @@ public class book extends publication{
         this.pageCount=pageCount;
     }
 
+    public book() {
+    }
+
     public void setPageCount(int pageCount) {
         this.pageCount = pageCount;
     }
@@ -15,6 +18,7 @@ public class book extends publication{
         return pageCount;
     }
     public void display(){
+        System.out.println("Book:");
         System.out.println("*Number of pages are "+pageCount);
         System.out.println("*Title of book is "+getTitle());
         System.out.println("*Price of book is  "+getPrice());
