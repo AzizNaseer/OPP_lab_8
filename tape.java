@@ -7,6 +7,9 @@ public class tape extends publication{
         this.playingTime=playingTime;
     }
 
+    public tape() {
+    }
+
     public void setPlayingTime(int playingTime) {
         this.playingTime = playingTime;
     }
@@ -15,6 +18,7 @@ public class tape extends publication{
         return playingTime;
     }
     public void Display(){
+        System.out.println("Tape:");
         System.out.println("*Playing time is "+playingTime);
         System.out.println("*Price of tape is "+getPrice());
         System.out.println("*Title of tape is "+getTitle());
