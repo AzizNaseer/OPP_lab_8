@@ -9,6 +9,9 @@ public class publication {
 
     }
 
+    public publication() {
+    }
+
     public void setPrice(int price) {
         this.price = price;
     }
